@@ -337,6 +337,14 @@ headline__moveOn{
     font-family: Avenir;
 }
 
+#left_align {
+    text-align: left;
+}
+
+#size_correction {
+    font-size: 18px;
+}
+
 /* footer */
 .footer{position:relative;display:grid;align-items:center;grid-auto-flow:column;grid-gap:var(--gutter);margin:0 auto;padding:calc(var(--gutter)*3) var(--gutter);background:var(--white);width:100%;max-width:var(--max-width)}@media (max-width:700px){.footer{grid-auto-flow:row}}
 .footer__text{
